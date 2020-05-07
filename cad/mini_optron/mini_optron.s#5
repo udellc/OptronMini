@@ -6641,7 +6641,7 @@ With round pins</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="adafruit" deviceset="PINHD-1X9" device="">
+<part name="HEADER" library="adafruit" deviceset="PINHD-1X9" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -6712,8 +6712,8 @@ With round pins</description>
 <instance part="GND3" gate="1" x="2.54" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="5.08" y="66.04" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP3" gate="G$1" x="15.24" y="48.26" smashed="yes">
-<attribute name="NAME" x="8.89" y="61.595" size="1.778" layer="95"/>
+<instance part="HEADER" gate="G$1" x="15.24" y="48.26" smashed="yes">
+<attribute name="NAME" x="6.35" y="61.595" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.89" y="33.02" size="1.778" layer="96"/>
 <attribute name="OC_NEWARK" x="15.24" y="48.26" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="15.24" y="48.26" size="1.778" layer="96" display="off"/>
@@ -6747,7 +6747,7 @@ With round pins</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="-5.08" y1="35.56" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="9"/>
+<pinref part="HEADER" gate="G$1" pin="9"/>
 <wire x1="12.7" y1="38.1" x2="12.7" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 <junction x="-5.08" y="33.02"/>
@@ -6778,20 +6778,20 @@ With round pins</description>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-5.08" y1="48.26" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="6"/>
+<pinref part="HEADER" gate="G$1" pin="6"/>
 <wire x1="-5.08" y1="45.72" x2="-5.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-5.08" y="45.72"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="HEADER" gate="G$1" pin="1"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="12.7" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="HEADER" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="55.88" x2="12.7" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="58.42" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
@@ -6802,7 +6802,7 @@ With round pins</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="4"/>
+<pinref part="HEADER" gate="G$1" pin="4"/>
 <wire x1="12.7" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="43.18" y1="50.8" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
@@ -6811,7 +6811,7 @@ With round pins</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
+<pinref part="HEADER" gate="G$1" pin="3"/>
 <wire x1="12.7" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="53.34" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
@@ -6819,14 +6819,14 @@ With round pins</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="5"/>
+<pinref part="HEADER" gate="G$1" pin="5"/>
 <wire x1="12.7" y1="48.26" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="7"/>
+<pinref part="HEADER" gate="G$1" pin="7"/>
 <wire x1="12.7" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="11"/>
@@ -6835,7 +6835,7 @@ With round pins</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="8"/>
+<pinref part="HEADER" gate="G$1" pin="8"/>
 <wire x1="12.7" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="40.64" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="12"/>

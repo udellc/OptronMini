@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2861,7 +2861,6 @@ naming: grid - package width</description>
 <attribute name="OC_NEWARK" value="52K8063"/>
 </part>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -2871,7 +2870,7 @@ naming: grid - package width</description>
 <part name="FORCE_JP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SOFT_POT_JP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="DOTSTAR_JP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" 2.2k">
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="33k">
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="CRCW060310K0FKEA"/>
 <attribute name="OC_NEWARK" value="52K8063"/>
@@ -2919,9 +2918,6 @@ naming: grid - package width</description>
 </instance>
 <instance part="P+1" gate="VCC" x="81.28" y="60.96" smashed="yes" rot="R270">
 <attribute name="VALUE" x="78.74" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="VCC" x="30.48" y="58.42" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.48" y="58.42" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="VCC" x="22.86" y="27.94" smashed="yes">
 <attribute name="VALUE" x="25.4" y="30.48" size="1.778" layer="96" rot="R180"/>
@@ -3011,11 +3007,6 @@ naming: grid - package width</description>
 <pinref part="DOTSTAR_JP" gate="A" pin="1"/>
 <wire x1="22.86" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-<pinref part="FORCE_JP" gate="G$1" pin="1"/>
-<wire x1="27.94" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -3062,6 +3053,9 @@ naming: grid - package width</description>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="33.02" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="FORCE_JP" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="58.42" x2="20.32" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="58.42" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">

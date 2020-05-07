@@ -2845,7 +2845,7 @@ naming: grid - package width</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="10/4" package3d_urn="urn:adsk.eagle:package:5400/1" value="1 uF">
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/7.2" package3d_urn="urn:adsk.eagle:package:5430/1" value="1 uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="0805YD105KAT2A"/>
 <attribute name="OC_NEWARK" value="95W9236"/>
