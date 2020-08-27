@@ -869,8 +869,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2635,8 +2635,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2683,7 +2683,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 714.0, 245.0, 230.0, 162.0 ],
+						"rect" : [ 714.0, 245.0, 671.0, 457.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2710,6 +2710,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -2742,7 +2743,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.0, 32.0, 55.0, 62.0 ],
+									"patching_rect" : [ 301.0, 32.0, 55.0, 49.0 ],
 									"text" : "/HSv 59 190 127 0 164"
 								}
 
@@ -2750,12 +2751,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 111.0, 50.0, 22.0 ],
-									"text" : "/V 193"
+									"patching_rect" : [ 208.0, 111.0, 50.0, 49.0 ],
+									"text" : "1 0 200 60 60 40"
 								}
 
 							}
@@ -2854,7 +2856,7 @@
 									"patching_rect" : [ 26.0, 427.0, 160.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.0, 120.0, 190.0, 22.0 ],
-									"text" : "CFI 1 54 254 0 37 20"
+									"text" : "CFI 1 92 165 0 15 40"
 								}
 
 							}
@@ -2878,7 +2880,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 110.0, 301.0, 140.0, 22.0 ],
-									"text" : "1 54 254 0 37 20"
+									"text" : "1 92 165 0 15 40"
 								}
 
 							}
@@ -3032,7 +3034,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 49.0, 14.0, 204.0, 20.0 ],
-									"text" : "HSv H, S, V, LED_start, len"
+									"text" : "CFI EN, H, V, LED_start, len"
 								}
 
 							}
@@ -3419,8 +3421,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3479,7 +3481,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 292.0, 258.0, 260.0, 162.0 ],
+						"rect" : [ 292.0, 258.0, 872.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3867,7 +3869,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 49.0, 14.0, 204.0, 20.0 ],
-									"text" : "HSv H, S, V, LED_start, len"
+									"text" : "Delta H, S, V, LED_start, len"
 								}
 
 							}
@@ -4236,8 +4238,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5464,8 +5466,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6229,8 +6231,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7585,8 +7587,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7619,12 +7621,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-98",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 579.0, 109.0, 22.0 ],
-					"text" : "BOW 6 33 15 215"
+					"patching_rect" : [ 465.0, 579.0, 109.0, 35.0 ],
+					"text" : "CFI 1 92 165 0 15 40"
 				}
 
 			}
@@ -8503,8 +8506,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9768,21 +9771,21 @@
 												"filekind" : "audiofile",
 												"loop" : 0,
 												"content_state" : 												{
-													"originallength" : [ 0.0, "ticks" ],
-													"formant" : [ 1.0 ],
-													"mode" : [ "basic" ],
-													"originaltempo" : [ 120.0 ],
-													"basictuning" : [ 440 ],
-													"pitchshift" : [ 1.0 ],
-													"play" : [ 0 ],
-													"pitchcorrection" : [ 0 ],
 													"speed" : [ 1.0 ],
-													"followglobaltempo" : [ 0 ],
-													"slurtime" : [ 0.0 ],
 													"timestretch" : [ 0 ],
 													"formantcorrection" : [ 0 ],
-													"quality" : [ "basic" ],
+													"slurtime" : [ 0.0 ],
+													"pitchshift" : [ 1.0 ],
+													"originallength" : [ 0.0, "ticks" ],
+													"originaltempo" : [ 120.0 ],
+													"basictuning" : [ 440 ],
+													"formant" : [ 1.0 ],
+													"play" : [ 0 ],
+													"mode" : [ "basic" ],
+													"pitchcorrection" : [ 0 ],
 													"originallengthms" : [ 0.0 ],
+													"quality" : [ "basic" ],
+													"followglobaltempo" : [ 0 ],
 													"pitchshiftcent" : [ 0 ]
 												}
 
@@ -10466,8 +10469,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10778,21 +10781,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"originallength" : [ 0.0, "ticks" ],
-									"formant" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"originaltempo" : [ 120.0 ],
-									"basictuning" : [ 440 ],
-									"pitchshift" : [ 1.0 ],
-									"play" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
 									"speed" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
-									"slurtime" : [ 0.0 ],
 									"timestretch" : [ 0 ],
 									"formantcorrection" : [ 0 ],
-									"quality" : [ "basic" ],
+									"slurtime" : [ 0.0 ],
+									"pitchshift" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : [ 120.0 ],
+									"basictuning" : [ 440 ],
+									"formant" : [ 1.0 ],
+									"play" : [ 0 ],
+									"mode" : [ "basic" ],
+									"pitchcorrection" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
+									"quality" : [ "basic" ],
+									"followglobaltempo" : [ 0 ],
 									"pitchshiftcent" : [ 0 ]
 								}
 
@@ -13247,8 +13250,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
