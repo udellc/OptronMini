@@ -1,6 +1,9 @@
 # OptronMini
 Repo for the Optron Mini
 
+# Project Wiki:
+https://github.com/udellc/OptronMini/wiki
+
 # Getting Started
 ##Download Max:
 Go to Cycling 74 and download the version for your operating system.
@@ -34,4 +37,4 @@ reStart and reOpen Max 8
 You may need to restart your computer too.
 
 ##Reopen Max8
-On your computer, Open (User) > Documents > Max 8 > Library > Loom2 > _DataProcessor.MPG.maxpat
+On your computer, Open (User) > Documents > Max 8 > Library > Optron > __OptronMiniApp.maxpat
