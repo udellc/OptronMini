@@ -38,6 +38,22 @@ CRGBPalette16 gPal; // https://github.com/FastLED/FastLED/wiki/Gradient-color-pa
 //#define FRAMES_PER_SECOND  240
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
+// Prototypes
+void BGi();
+void HSv();
+void rainbow() ;
+void ticks();
+void drumKit();
+void ARGB();
+void funfetti() ;
+void bell();
+void mouth();
+void addGlitter();
+void sinelon();
+void juggle();
+void setRGB();
+void fairyFire();
+
 // List of patterns to cycle through.  Each is defined as a separate function below.
 // The order in which you declare things is the order of layering from bottom to top
 // first in is written first to the strip
