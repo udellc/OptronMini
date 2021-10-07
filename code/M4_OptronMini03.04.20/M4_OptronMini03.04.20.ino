@@ -38,22 +38,6 @@ CRGBPalette16 gPal; // https://github.com/FastLED/FastLED/wiki/Gradient-color-pa
 //#define FRAMES_PER_SECOND  240
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
-// Prototypes
-void BGi();
-void HSv();
-void rainbow() ;
-void ticks();
-void drumKit();
-void ARGB();
-void funfetti() ;
-void bell();
-void mouth();
-void addGlitter();
-void sinelon();
-void juggle();
-void setRGB();
-void fairyFire();
-
 // List of patterns to cycle through.  Each is defined as a separate function below.
 // The order in which you declare things is the order of layering from bottom to top
 // first in is written first to the strip
@@ -92,8 +76,8 @@ uint8_t ZXSensorPos[] = {10, 31, 52, 73, 94, 115, 136, 157};
 
 
 // uncoment one of these - which format do we want stuff output on serial?
-#define OUTPUT_BINARY
-//#define OUTPUT_READABLE
+//#define OUTPUT_BINARY
+#define OUTPUT_READABLE
 
 unsigned long previousMillis = 0; // will store last time samples were sent
 const long interval = 20;  // interval at which to send samples (milliseconds)
@@ -109,7 +93,7 @@ const int MPU_ADDR = 0x68; // also define i2c address of MPU
 #endif
 
   MPU6050 accelgyro; // another called accelgyro
-#define INTERRUPT_PIN 11  // use pin 11 on Micro, use pin 2 on Arduino Uno & most boards
+//#define INTERRUPT_PIN 11  // use pin 11 on Micro, use pin 2 on Arduino Uno & most boards
 // MPU control/status vars
 bool dmpReady = false;  // set true if DMP init was successful
 uint8_t mpuIntStatus;   // holds actual interrupt status byte from MPU
@@ -215,7 +199,7 @@ void setup() {
   delay(5000);
 
   // *** Init MPU 6050 and serial stuff
-  pinMode(INTERRUPT_PIN, INPUT);
+//  pinMode(INTERRUPT_PIN, INPUT);
 #ifdef OUTPUT_READABLE
   Serial.println("Setting up MPU6050 raw");
 #endif
