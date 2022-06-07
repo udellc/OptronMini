@@ -19,7 +19,7 @@ FASTLED_USING_NAMESPACE
 
 #define LED_TYPE    SK9822
 #define COLOR_ORDER BGR
-#define NUM_LEDS    47
+#define NUM_LEDS    48
 CRGB leds[NUM_LEDS];        // Place for final LED buffer at end of each cycle
 CRGB LED_BUFFER[NUM_LEDS];      // volatile LED buffer for pushing/poping
 CRGB spitOverlay[NUM_LEDS];  // color spit buffer

@@ -108,7 +108,8 @@ void sendVals()
         Serial.write(255); // Send max hand away
         Serial.write(x_pos); // and last known position of X
       }
- 
+
+     
   // ********** Get All Readings right!     ********  
     #endif
     
@@ -122,11 +123,13 @@ void readXZ()
     x_pos = zx_sensor.readX();
     z_pos = zx_sensor.readZ();
   }
+  /*
   // commented out because we want the last updated value sent per cycle even if sensors don't update this go around
   else{ 
       x_pos = x_pos;
       z_pos = 255;
     }
+    */
 }
 
 
