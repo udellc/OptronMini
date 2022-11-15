@@ -1,3 +1,6 @@
+// Arduino IDE 1.8.7
+// SAMD boards 1.5.0
+// FASTLED 3.002.006
 // Dotstar Includes:
 #include <Arduino.h>
 #include <AsyncDelay.h>
